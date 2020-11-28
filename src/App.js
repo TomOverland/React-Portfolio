@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "../src/components/Header/Header";
+import About from "../src/components/About/About";
 import Portfolio from "../src/components/Portfolio/Portfolio";
-import Project from "../src/components/Project/Project";
 import Contact from "../src/components/Contact/Contact";
 import Footer from "../src/components/Footer/Footer";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -14,8 +14,8 @@ function App() {
     <div className="App">
       <Header />
       <Router>
-        <Route exact path="/" component={Portfolio} />
-        <Route exact path="/projects" component={Project} />
+        <Route exact path="/" component={About} />
+        <Route exact path="/projects" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
       </Router>
       <Footer />

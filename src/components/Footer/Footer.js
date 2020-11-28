@@ -4,7 +4,18 @@ import "./Footer.css";
 function Footer() {
   return (
     <div>
-      <h1 className="darkwhite">This is a footer</h1>
+      <ul className="social d-flex justify-content-center">
+        <li>
+          <a href="http://github.com/TomOverland" target="_blank">
+            <i className="fa fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/thomasoverland" target="_blank">
+            <i className="fa fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
     </div>
   );
 }
