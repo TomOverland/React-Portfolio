@@ -31,9 +31,9 @@ function Header() {
               Portfolio
             </a>
           </li>
-          <li className="nav-item active">
-            <a className="nav-link disabled" href="contact">
-              Contact <span className="sr-only">(current)</span>
+          <li className="nav-item">
+            <a className="nav-link" href="contact">
+              Contact
             </a>
           </li>
         </ul>
