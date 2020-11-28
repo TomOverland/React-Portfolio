@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
+  document.body.style.backgroundColor = "#222831";
+
   return (
     <div className="App">
       <Header />
