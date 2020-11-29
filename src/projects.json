@@ -3,7 +3,7 @@
         "id": 0,
         "title": "Note Taker",
         "description": "A server-side note taker application which allows the user to create, modify, and delete notes which are saved to a database. The application was developed with JavaScript, Node.js and Express. I deployed the application on Heroku.",
-        "image": "https://github.com/TomOverland/React-Portfolio/blob/main/public/assets/NoteTaker.JPG",
+        "image": "./assets/NoteTaker.JPG",
         "link": "https://aqueous-spire-77025.herokuapp.com/",
         "github": "https://github.com/TomOverland/Note-Taker"
     },
@@ -11,7 +11,7 @@
         "id": 1,
         "title": "React Employee Directory",
         "description": "A client-side Employee Directory created with React. ",
-        "image": "https://github.com/TomOverland/React-Portfolio/blob/main/public/assets/EmployeeDirectory.JPG",
+        "image": "./assets/EmployeeDirectory.JPG",
         "link": "https://tomoverland.github.io/Employee-Directory/",
         "github": "https://github.com/TomOverland/Employee-Directory"
     },
@@ -19,7 +19,7 @@
         "id": 2,
         "title": "Burger App",
         "description": "This application demonstrates a simple full stack development application with front end implemented with an HTML/CSS and Bootstrap 4. The backend is implemented with Node.js and Express and deployed to Heroku. The database was constructed with MySQL and implemented to Heroku with JawsDB. The HTML templating was completed with Handlebars. The app allows the user to enter any burger name to add it to the menu. This enters the burger's information into the MySQL database. When a burger is created, it is added to the available burger menu, and it's default 'devoured' status is set to false. When the user clicks the 'Devour' button to eat a burger, then it changes the saved 'devoured' boolen to false in the database, and the burger is moved to the 'devoured' menu.",
-        "image": "https://github.com/TomOverland/React-Portfolio/blob/main/public/assets/EatDaBurger.JPG",
+        "image": "./assets/EatDaBurger.JPG",
         "link": "https://tranquil-citadel-07940.herokuapp.com/",
         "github": "https://github.com/TomOverland/Burger"
     },
@@ -27,7 +27,7 @@
         "id": 3,
         "title": "Budget Tracker",
         "description": "Progressive web application that allows users to add expenses to a budget tracker both online and offline. This application allows a user to add expenses and deposits to a budget tracker with or without an internet connection. When entering transactions offline, they will update the total when the user reconnects to the internet. This application demonstrates a simple full stack development CRUD application with front end implemented with HTML and CSS. The backend is implemented with Node.js and Express. The database was constructed with Mongoose, MongoDB, and IndexedDB, and implemented to Heroku with MongoDB Atlas.",
-        "image": "https://github.com/TomOverland/React-Portfolio/blob/main/public/assets/BudgetTracker.JPG",
+        "image": "./assets/BudgetTracker.JPG",
         "link": "https://secret-tor-92519.herokuapp.com/",
         "github": "https://github.com/TomOverland/Online-Offline-Budget-Tracker"
     },
@@ -35,7 +35,7 @@
         "id": 4,
         "title": "Ticket Tracker",
         "description": "This application demonstrates a simple full stack development CRUD application with front end implemented with Handlebars and Bootstrap 4. The backend is implemented with Node.js and Sequelize/MySQL. The database was constructed with Sequelize and implemented to Heroku with JawsDB. This is a service desk application that allows users to track issues by submitting, viewing, modifying, or deleting tickets. Users can also view analytics about the submitted tickets powered by Chart.js. Once tickets are submitted, you can update the ticket's notes, change the ticket's completed status to true, or remove the ticket from the database. My role in this project was to create all of the JavaScript and translate other group member's HTML pages into Handlebars.",
-        "image": "https://github.com/TomOverland/React-Portfolio/blob/main/public/assets/TicketTracker.JPG",
+        "image": "./assets/TicketTracker.JPG",
         "link": "https://fathomless-savannah-39390.herokuapp.com/",
         "github": "https://github.com/TomOverland/Ticket-Tracker"
     },
@@ -43,7 +43,7 @@
         "id": 5,
         "title": "Workout Dashboard",
         "description": "This application demonstrates a simple full stack development CRUD application with front end implemented with an HTML/CSS and Semantic UI. The backend is implemented with Node.js and Express. The database was constructed with Mongoose and MongoDB, and implemented to Heroku with MongoDB Atlas.",
-        "image": "https://github.com/TomOverland/React-Portfolio/blob/main/public/assets/WorkoutDashboard.JPG",
+        "image": "./assets/WorkoutDashboard.JPG",
         "link": "https://agile-anchorage-58361.herokuapp.com/?id=5fad70179959df00224d42e5",
         "github": "https://github.com/TomOverland/Workout-Tracker"
     }
