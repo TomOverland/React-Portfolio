@@ -3,7 +3,7 @@ import React from "react";
 import "./Project.css";
 
 function Project(props) {
-  const imgSrc = require(props.image);
+  const imgSrc = props.image;
 
   return (
     <div>
