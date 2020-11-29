@@ -6,12 +6,20 @@ function Footer() {
     <div>
       <ul className="social d-flex justify-content-center">
         <li>
-          <a href="http://github.com/TomOverland" target="_blank">
+          <a
+            href="http://github.com/TomOverland"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa fa-github"></i>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/thomasoverland" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/thomasoverland"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa fa-linkedin"></i>
           </a>
         </li>
