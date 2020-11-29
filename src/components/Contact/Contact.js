@@ -46,6 +46,7 @@ function Contact() {
               href="https://drive.google.com/file/d/1pa6L8Xy4B1BS9oh3oAFTnw4IweTMQO5u/view?usp=sharing"
               className="darkwhite"
               target="_blank"
+              rel="noreferrer"
             >
               Resume
             </a>
@@ -57,6 +58,7 @@ function Contact() {
               href="https://github.com/TomOverland"
               className="darkwhite"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub
             </a>
@@ -68,6 +70,7 @@ function Contact() {
               href="https://www.linkedin.com/in/thomasoverland"
               className="darkwhite"
               target="_blank"
+              rel="noreferrer"
             >
               LinkedIn
             </a>
