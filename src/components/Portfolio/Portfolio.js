@@ -1,4 +1,6 @@
 import React from "react";
+import Project from "../Project/Project";
+import projects from "../../projects.json";
 import "./Portfolio.css";
 
 function Portfolio() {
@@ -15,11 +17,20 @@ function Portfolio() {
       </header>
 
       <div className="container">
+        <Project
+          name={projects[0].title}
+          image={projects[0].image}
+          description={projects[0].description}
+          link={projects[0].link}
+          github={projects[0].github}
+        />
+
         <div className="row projects">
           <div className="col-md-4 col-sm">
             <a
               href="https://tranquil-citadel-07940.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="assets\BurgerDemo.JPG"
@@ -50,6 +61,7 @@ function Portfolio() {
               className="btn btn-outline-light"
               href="https://github.com/TomOverland/Burger"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub Repository
             </a>
@@ -58,6 +70,7 @@ function Portfolio() {
               className="btn btn-outline-light"
               href="https://tranquil-citadel-07940.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               Live Site
             </a>
@@ -69,6 +82,7 @@ function Portfolio() {
             <a
               href="https://fathomless-savannah-39390.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="assets\ticket-tracker.JPG"
@@ -92,6 +106,7 @@ function Portfolio() {
               className="btn btn-outline-light"
               href="https://github.com/TomOverland/Ticket-Tracker"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub Repository
             </a>
@@ -100,6 +115,7 @@ function Portfolio() {
               className="btn btn-outline-light"
               href="https://fathomless-savannah-39390.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               Live Site
             </a>
@@ -111,6 +127,7 @@ function Portfolio() {
             <a
               href="https://github.com/TomOverland/Employee-Tracker"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="assets\employee-tracker.gif"
@@ -132,6 +149,7 @@ function Portfolio() {
               className="btn btn-outline-light"
               href="https://github.com/TomOverland/Employee-Tracker"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub Repository
             </a>
@@ -143,6 +161,7 @@ function Portfolio() {
             <a
               href="https://github.com/TomOverland/Team-Profile-Generator"
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src="./assets/Screenshot-of-Application.JPG"
@@ -166,6 +185,7 @@ function Portfolio() {
               className="btn btn-outline-light"
               href="https://github.com/TomOverland/Team-Profile-Generator"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub Repository
             </a>
@@ -195,6 +215,7 @@ function Portfolio() {
               className="btn btn-outline-light"
               href="https://github.com/TomOverland/Note-Taker"
               target="_blank"
+              rel="noreferrer"
             >
               GitHub Repository
             </a>
@@ -203,6 +224,7 @@ function Portfolio() {
               className="btn btn-outline-light"
               href="https://aqueous-spire-77025.herokuapp.com/"
               target="_blank"
+              rel="noreferrer"
             >
               Live Site
             </a>
