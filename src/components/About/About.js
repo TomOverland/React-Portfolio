@@ -1,4 +1,5 @@
 import React from "react";
+import TomPhoto from "./TomPhoto.JPG";
 import "./About.css";
 
 function About() {
@@ -22,7 +23,7 @@ function About() {
           <div className="col-3"></div>
           <div className="col-6">
             <img
-              src="./assets/TomPhoto.JPG"
+              src={TomPhoto}
               id="profile-photo"
               className="img-fluid"
               alt="Tom Overland"
