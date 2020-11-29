@@ -15,8 +15,11 @@ function App() {
       <Header />
       <Router>
         <Route exact path="/" component={About} />
+        <Route exact path="/React-Portfolio/" component={About} />
         <Route exact path="/projects" component={Portfolio} />
+        <Route exact path="/React-Portfolio/projects" component={Portfolio} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/React-Portfolio/contact" component={Contact} />
       </Router>
       <Footer />
     </div>
