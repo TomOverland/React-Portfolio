@@ -4,7 +4,9 @@ import "./Header.css";
 function Header() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a className="navbar-brand">Tom Overland</a>
+      <a className="navbar-brand" href="/">
+        Tom Overland
+      </a>
       <button
         className="navbar-toggler"
         type="button"
