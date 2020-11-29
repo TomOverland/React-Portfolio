@@ -1,14 +1,17 @@
 import React from "react";
+
 import "./Project.css";
 
 function Project(props) {
+  const imgSrc = require(props.image);
+
   return (
     <div>
       <div className="row mt-4 projects">
         <div className="col-md-4 col-sm">
           <a href={props.link} target="_blank" rel="noreferrer">
             <img
-              src={props.image}
+              src={imgSrc}
               className="img-fluid portfolio-img"
               alt="demo of Tom's note taker application"
             />
