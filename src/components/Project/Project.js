@@ -28,7 +28,7 @@ function Project(props) {
           </a>
           <a
             type="button"
-            className="btn btn-outline-light"
+            className="btn btn-outline-light mx-2"
             href={props.link}
             target="_blank"
             rel="noreferrer"

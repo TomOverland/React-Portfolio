@@ -18,7 +18,7 @@ function Portfolio() {
 
       <div className="container">
         <Project
-          name={projects[0].title}
+          title={projects[0].title}
           image={projects[0].image}
           description={projects[0].description}
           link={projects[0].link}
