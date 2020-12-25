@@ -1,0 +1,73 @@
+body {
+  height: 100%;
+  background-color: #222831;
+}
+
+.navbar {
+  background-color: #1f2833;
+}
+
+#profile-photo {
+  border-radius: 50%;
+}
+
+.white {
+  color: #feffff;
+}
+
+.darkwhite {
+  color: #def2f1;
+}
+
+.gray {
+  color: #dedede;
+}
+
+.red {
+  color: #ff3333;
+}
+
+.container h1 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
+}
+
+.container h2 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container h3 {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.container li {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.biography p {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  padding: 1rem;
+}
+
+.biography ul {
+  list-style: none;
+}
+
+.biography li {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.portfolio-img {
+  max-width: 300px;
+  max-height: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.projects {
+  padding-top: 1rem;
+}
+
+form {
+  margin: 1rem;
+}

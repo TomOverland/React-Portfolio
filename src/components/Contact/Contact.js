@@ -1,5 +1,6 @@
 import React from "react";
 import "./Contact.css";
+import ContactForm from "../ContactForm/ContactForm";
 
 function Contact() {
   return (
@@ -18,6 +19,7 @@ function Contact() {
         <h2 className="h1-responsive font-weight-bold text-center my-4 white">
           Contact Me
         </h2>
+        <ContactForm />
       </section>
       <div className="container">
         <div className="row">
@@ -49,30 +51,6 @@ function Contact() {
               rel="noreferrer"
             >
               Resume
-            </a>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col d-flex mb-3 justify-content-center">
-            <a
-              href="https://github.com/TomOverland"
-              className="darkwhite"
-              target="_blank"
-              rel="noreferrer"
-            >
-              GitHub
-            </a>
-          </div>
-        </div>
-        <div className="row">
-          <div className="col d-flex justify-content-center">
-            <a
-              href="https://www.linkedin.com/in/thomasoverland"
-              className="darkwhite"
-              target="_blank"
-              rel="noreferrer"
-            >
-              LinkedIn
             </a>
           </div>
         </div>
