@@ -62,12 +62,14 @@ export default class ContactForm extends React.Component {
                 ></textarea>
               </div>
               {status === "SUCCESS" ? (
-                <p className="white">Thanks!</p>
+                <p className="white offset-2">Thanks!</p>
               ) : (
                 <button className="btn btn-secondary offset-2">Submit</button>
               )}
               {status === "ERROR" && (
-                <p className="white">Ooops! There was an error.</p>
+                <p className="white">
+                  Ooops! There was an error. Please check your email address.
+                </p>
               )}
             </form>
           </div>
