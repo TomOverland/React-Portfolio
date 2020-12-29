@@ -1,6 +1,7 @@
 import React from "react";
 import TomPhoto from "./TomPhoto.JPG";
 import "./About.css";
+import PDF from '../../files/Resume_TomOverland.docx.pdf';
 
 function About() {
   return (
@@ -49,6 +50,18 @@ function About() {
               fast-paced, quality-driven team to build better experiences on the
               web.
             </p>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col d-flex mb-3 justify-content-center">
+            <a
+              href={PDF}
+              className="darkwhite"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Resume
+            </a>
           </div>
         </div>
       </div>

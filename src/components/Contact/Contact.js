@@ -42,18 +42,6 @@ function Contact() {
             </p>
           </div>
         </div>
-        <div className="row">
-          <div className="col d-flex mb-3 justify-content-center">
-            <a
-              href="https://drive.google.com/file/d/1pa6L8Xy4B1BS9oh3oAFTnw4IweTMQO5u/view?usp=sharing"
-              className="darkwhite"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Resume
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
