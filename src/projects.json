@@ -34,7 +34,7 @@
     {
         "id": 4,
         "title": "Ticket Tracker",
-        "description": "This application demonstrates a simple full stack development CRUD application with front end implemented with Handlebars and Bootstrap 4. The backend is implemented with Node.js and Sequelize/MySQL. The database was constructed with Sequelize and implemented to Heroku with JawsDB. This is a service desk application that allows users to track issues by submitting, viewing, modifying, or deleting tickets. Users can also view analytics about the submitted tickets powered by Chart.js. Once tickets are submitted, you can update the ticket's notes, change the ticket's completed status to true, or remove the ticket from the database. My role in this project was to create all of the JavaScript and translate other group member's HTML pages into Handlebars.",
+        "description": "This web application is a full stack service desk application which allows users to document issues in a company. Users can track issues by creating, viewing, updating and removing tickets. The technology we used to create this project includes a Handlebars.js and Bootstrap frontend, and a backend created with Node, Express, MySQL and Sequelize. This project was created with the help of four other contributors. My role on this project was to manage the project, write the JavaScript, translate HTML into Handlebars, create the backend, deploy the project on Heroku, and connect the database using JawsDB.",
         "image": "./assets/Ticket-Tracker-Demo.gif",
         "link": "https://fathomless-savannah-39390.herokuapp.com/",
         "github": "https://github.com/TomOverland/Ticket-Tracker"
