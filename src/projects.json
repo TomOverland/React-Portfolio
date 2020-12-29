@@ -1,17 +1,17 @@
 [
     {
         "id": 0,
-        "title": "Note Taker",
-        "description": "A server-side note taker application which allows the user to create, modify, and delete notes which are saved to a database. The application was developed with JavaScript, Node.js and Express. I deployed the application on Heroku.",
-        "image": "./assets/NoteTaker.JPG",
-        "link": "https://aqueous-spire-77025.herokuapp.com/",
-        "github": "https://github.com/TomOverland/Note-Taker"
+        "title": "Cup of Sugar",
+        "description": "This web application is a full stack peer to peer rental platform. Users can sign up for a new account with Auth0, which will allow them to see the available items that have been posted to the site and contact the item’s owners.  The user can also post, update, delete, and view their own items.  This website was created with a React and Tailwind.css frontend, and a backend built with Node, Express, MySQL and Sequelize.  I built this project with the help of four other contributors in an agile environment utilizing a Trello board. My responsibilities included project management, implementation of authorization, creating React components, writing the API routes which connected our frontend to our MySQL database, deploy the application to Heroku, and connect the database using JawsDB.",
+        "image": "./assets/Cup-of-Sugar.gif",
+        "link": "https://fierce-inlet-58475.herokuapp.com/",
+        "github": "https://github.com/TomOverland/Cup-of-Sugar"
     },
     {
         "id": 1,
         "title": "React Employee Directory",
-        "description": "A client-side Employee Directory created with React. ",
-        "image": "./assets/EmployeeDirectory.JPG",
+        "description": "This client-side application allows a user to quickly search for an employee's contact information, and will dynamically filter out employees as the user inputs keystrokes. The employee list was populated by an API GET Request to https://randomuser.me. This application was created with React and Bootstrap, and was based on a project prompt I received from the University of Minnesota's Full Stack Web Development Bootcamp. I deployed this application's build folder to github using the gh-pages NPM package.",
+        "image": "./assets/Employee-Directory-Demo.gif",
         "link": "https://tomoverland.github.io/Employee-Directory/",
         "github": "https://github.com/TomOverland/Employee-Directory"
     },
@@ -19,32 +19,32 @@
         "id": 2,
         "title": "Burger App",
         "description": "This application demonstrates a simple full stack development application with front end implemented with an HTML/CSS and Bootstrap 4. The backend is implemented with Node.js and Express and deployed to Heroku. The database was constructed with MySQL and implemented to Heroku with JawsDB. The HTML templating was completed with Handlebars. The app allows the user to enter any burger name to add it to the menu. This enters the burger's information into the MySQL database. When a burger is created, it is added to the available burger menu, and it's default 'devoured' status is set to false. When the user clicks the 'Devour' button to eat a burger, then it changes the saved 'devoured' boolen to false in the database, and the burger is moved to the 'devoured' menu.",
-        "image": "./assets/EatDaBurger.JPG",
+        "image": "./assets/Burger-demo.gif", 
         "link": "https://tranquil-citadel-07940.herokuapp.com/",
         "github": "https://github.com/TomOverland/Burger"
     },
     {
         "id": 3,
-        "title": "Budget Tracker",
-        "description": "Progressive web application that allows users to add expenses to a budget tracker both online and offline. This application allows a user to add expenses and deposits to a budget tracker with or without an internet connection. When entering transactions offline, they will update the total when the user reconnects to the internet. This application demonstrates a simple full stack development CRUD application with front end implemented with HTML and CSS. The backend is implemented with Node.js and Express. The database was constructed with Mongoose, MongoDB, and IndexedDB, and implemented to Heroku with MongoDB Atlas.",
-        "image": "./assets/BudgetTracker.JPG",
-        "link": "https://secret-tor-92519.herokuapp.com/",
-        "github": "https://github.com/TomOverland/Online-Offline-Budget-Tracker"
+        "title": "Google Book Search",
+        "description": "This web application is a full stack application which allows users to search for books and save them to a database. The user is able to search for books using requests sent to the Google Books API, and is able to save books to MongoDB. The technology I used to create this website includes a frontend created with React and Bootstrap, and a backend that consists of Node, Express, MongoDB and Mongoose. I deployed the site to Heroku, and connected the database using Mongo Atlas. This application was based on a project prompt I received from the University of Minnesota's Full Stack Web Development Bootcamp.",
+        "image": "./assets/Google-Books-Demo.gif",
+        "link": "https://damp-shelf-31146.herokuapp.com/",
+        "github": "https://github.com/TomOverland/google-books-search"
     },
     {
         "id": 4,
         "title": "Ticket Tracker",
         "description": "This application demonstrates a simple full stack development CRUD application with front end implemented with Handlebars and Bootstrap 4. The backend is implemented with Node.js and Sequelize/MySQL. The database was constructed with Sequelize and implemented to Heroku with JawsDB. This is a service desk application that allows users to track issues by submitting, viewing, modifying, or deleting tickets. Users can also view analytics about the submitted tickets powered by Chart.js. Once tickets are submitted, you can update the ticket's notes, change the ticket's completed status to true, or remove the ticket from the database. My role in this project was to create all of the JavaScript and translate other group member's HTML pages into Handlebars.",
-        "image": "./assets/TicketTracker.JPG",
+        "image": "./assets/Ticket-Tracker-Demo.gif",
         "link": "https://fathomless-savannah-39390.herokuapp.com/",
         "github": "https://github.com/TomOverland/Ticket-Tracker"
     },
     {
         "id": 5,
-        "title": "Workout Dashboard",
-        "description": "This application demonstrates a simple full stack development CRUD application with front end implemented with an HTML/CSS and Semantic UI. The backend is implemented with Node.js and Express. The database was constructed with Mongoose and MongoDB, and implemented to Heroku with MongoDB Atlas.",
-        "image": "./assets/WorkoutDashboard.JPG",
-        "link": "https://agile-anchorage-58361.herokuapp.com/?id=5fad70179959df00224d42e5",
-        "github": "https://github.com/TomOverland/Workout-Tracker"
+        "title": "Ravenous",
+        "description": "This full stack application allows a user to search for a restaurant using Yelp's API, and will display a list of restaurants based on food type on submit. The user is able to filter their search by 'best match', 'highest rated', and 'most reviewed'. This project was based on a project prompt I received from Codecademy's 'Create a Front End Application with React' lesson plan. I deployed this application to Github Pages with the gh-pages npm package.",
+        "image": "./assets/ravenous-demo.gif",
+        "link": "https://tomoverland.github.io/ravenous/",
+        "github": "https://github.com/TomOverland/ravenous"
     }
 ]
