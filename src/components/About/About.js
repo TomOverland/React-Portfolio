@@ -56,7 +56,7 @@ function About() {
           <div className="col d-flex mb-3 justify-content-center">
             <a
               href={PDF}
-              className="darkwhite"
+              className="darkwhite btn btn-secondary"
               target="_blank"
               rel="noreferrer"
             >

@@ -5,7 +5,7 @@ import "./Project.css";
 function Project(props) {
   return (
     <div>
-      <div className="row mt-4 projects">
+      <div className="row mt-4 projects bg-secondary pb-3">
         <div className="col-md-4 col-sm">
           <a href={props.link} target="_blank" rel="noreferrer">
             <img
@@ -16,11 +16,11 @@ function Project(props) {
           </a>
         </div>
         <div className="col-md-8 col-sm">
-          <h3 className="red">{props.title}</h3>
+          <h3>{props.title}</h3>
           <p className="white">{props.description}</p>
           <a
             type="button"
-            className="btn btn-outline-light"
+            className="btn btn-danger"
             href={props.github}
             target="_blank"
             rel="noreferrer"
@@ -29,7 +29,7 @@ function Project(props) {
           </a>
           <a
             type="button"
-            className="btn btn-outline-light mx-2"
+            className="btn btn-danger mx-2"
             href={props.link}
             target="_blank"
             rel="noreferrer"
